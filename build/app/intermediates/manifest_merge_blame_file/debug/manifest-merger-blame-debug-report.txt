@@ -1,0 +1,373 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.new_3ala5er"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/debug/AndroidManifest.xml:7:5-66
+15-->/Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/debug/AndroidManifest.xml:7:22-64
+16
+17    <uses-feature
+17-->/Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:4:5-6:36
+18        android:name="android.hardware.telephony"
+18-->/Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:5:9-50
+19        android:required="false" />
+19-->/Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:6:9-33
+20
+21    <uses-permission android:name="android.permission.CALL_PHONE" />
+21-->/Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:7:5-68
+21-->/Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:7:22-66
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->[:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-80
+22-->[:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-77
+23
+24    <queries>
+24-->[:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
+25        <intent>
+25-->[:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:18
+26            <action android:name="android.intent.action.GET_CONTENT" />
+26-->[:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-72
+26-->[:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:21-69
+27
+28            <data android:mimeType="*/*" />
+28-->[:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-44
+28-->[:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:19-41
+29        </intent>
+30    </queries>
+31
+32    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+32-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+32-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+33    <uses-permission android:name="android.permission.VIBRATE" />
+33-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+33-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-63
+34    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+34-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+34-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
+35    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+35-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
+35-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
+36    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+36-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
+36-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-74
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:26:5-79
+37-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:26:22-76
+38
+39    <permission
+39-->[androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+40        android:name="com.example.new_3ala5er.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.example.new_3ala5er.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+44
+45    <application
+46        android:name="android.app.Application"
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+48        android:debuggable="true"
+49        android:icon="@mipmap/ic_launcher"
+50        android:label="طمني حكيم" >
+51        <activity
+52            android:name="com.example.new_3ala5er.MainActivity"
+53            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+54            android:exported="true"
+55            android:hardwareAccelerated="true"
+56            android:launchMode="singleTop"
+57            android:theme="@style/LaunchTheme"
+58            android:windowSoftInputMode="adjustResize" >
+59
+60            <!--
+61                 Specifies an Android theme to apply to this Activity as soon as
+62                 the Android process has started. This theme is visible to the user
+63                 while the Flutter UI initializes. After that, this theme continues
+64                 to determine the Window background behind the Flutter UI.
+65            -->
+66            <meta-data
+67                android:name="io.flutter.embedding.android.NormalTheme"
+68                android:resource="@style/NormalTheme" />
+69
+70            <intent-filter>
+71                <action android:name="android.intent.action.MAIN" />
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+74            </intent-filter>
+75        </activity>
+76        <!--
+77             Don't delete the meta-data below.
+78             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+79        -->
+80        <meta-data
+81            android:name="flutterEmbedding"
+82            android:value="2" />
+83
+84        <service
+84-->[:firebase_database] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+85            android:name="com.google.firebase.components.ComponentDiscoveryService"
+85-->[:firebase_database] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+86            android:directBootAware="true"
+86-->[com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+87            android:exported="false" >
+87-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:68:13-37
+88            <meta-data
+88-->[:firebase_database] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+89-->[:firebase_database] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-127
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[:firebase_database] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+91            <meta-data
+91-->[:cloud_firestore] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+92-->[:cloud_firestore] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:cloud_firestore] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+94            <meta-data
+94-->[:firebase_auth] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+95-->[:firebase_auth] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[:firebase_auth] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+97            <meta-data
+97-->[:firebase_storage] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+98                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+98-->[:firebase_storage] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[:firebase_storage] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+100            <meta-data
+100-->[:firebase_core] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+101                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+101-->[:firebase_core] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[:firebase_core] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:69:13-71:85
+104                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+104-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:70:17-109
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:71:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:31:13-33:85
+107                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+107-->[com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:32:17-109
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:33:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:19:13-21:85
+110                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+110-->[com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:20:17-111
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:21:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:32:13-34:85
+113                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+113-->[com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:33:17-107
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:34:17-82
+115        </service>
+116
+117        <receiver
+117-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-18:40
+118            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+118-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-91
+119            android:exported="false" />
+119-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+120        <receiver
+120-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-21:40
+121            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+121-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-97
+122            android:exported="false" />
+122-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+123        <receiver
+123-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-31:20
+124            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+124-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-101
+125            android:exported="false" >
+125-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
+126            <intent-filter>
+126-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-30:29
+127                <action android:name="android.intent.action.BOOT_COMPLETED" />
+127-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-79
+127-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:25-76
+128                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+128-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-84
+128-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-81
+129                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+129-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-82
+129-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-79
+130                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+130-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-82
+130-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-79
+131            </intent-filter>
+132        </receiver>
+133
+134        <activity
+134-->[:url_launcher_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+135            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+135-->[:url_launcher_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+136            android:exported="false"
+136-->[:url_launcher_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+137            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+137-->[:url_launcher_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+138
+139        <provider
+139-->[:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-20:20
+140            android:name="com.crazecoder.openfile.FileProvider"
+140-->[:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+141            android:authorities="com.example.new_3ala5er.fileProvider.com.crazecoder.openfile"
+141-->[:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-88
+142            android:exported="false"
+142-->[:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+143            android:grantUriPermissions="true" >
+143-->[:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-47
+144            <meta-data
+144-->[:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:53
+145                android:name="android.support.FILE_PROVIDER_PATHS"
+145-->[:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-67
+146                android:resource="@xml/filepaths" />
+146-->[:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-50
+147        </provider>
+148
+149        <activity
+149-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:29:9-46:20
+150            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+150-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:30:13-80
+151            android:excludeFromRecents="true"
+151-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:31:13-46
+152            android:exported="true"
+152-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:32:13-36
+153            android:launchMode="singleTask"
+153-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:33:13-44
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+154-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:34:13-72
+155            <intent-filter>
+155-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:35:13-45:29
+156                <action android:name="android.intent.action.VIEW" />
+156-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:17-69
+156-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:25-66
+157
+158                <category android:name="android.intent.category.DEFAULT" />
+158-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+158-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
+159                <category android:name="android.intent.category.BROWSABLE" />
+159-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+159-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
+160
+161                <data
+161-->[:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-44
+162                    android:host="firebase.auth"
+163                    android:path="/"
+164                    android:scheme="genericidp" />
+165            </intent-filter>
+166        </activity>
+167        <activity
+167-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:47:9-64:20
+168            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+168-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:48:13-79
+169            android:excludeFromRecents="true"
+169-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:49:13-46
+170            android:exported="true"
+170-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:50:13-36
+171            android:launchMode="singleTask"
+171-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:51:13-44
+172            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+172-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:52:13-72
+173            <intent-filter>
+173-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:53:13-63:29
+174                <action android:name="android.intent.action.VIEW" />
+174-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:17-69
+174-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:25-66
+175
+176                <category android:name="android.intent.category.DEFAULT" />
+176-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+176-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
+177                <category android:name="android.intent.category.BROWSABLE" />
+177-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+177-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
+178
+179                <data
+179-->[:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-44
+180                    android:host="firebase.auth"
+181                    android:path="/"
+182                    android:scheme="recaptcha" />
+183            </intent-filter>
+184        </activity>
+185
+186        <uses-library
+186-->[androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+187            android:name="androidx.window.extensions"
+187-->[androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+188            android:required="false" />
+188-->[androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+189        <uses-library
+189-->[androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+190            android:name="androidx.window.sidecar"
+190-->[androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+191            android:required="false" />
+191-->[androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+192
+193        <provider
+193-->[com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+194            android:name="com.google.firebase.provider.FirebaseInitProvider"
+194-->[com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+195            android:authorities="com.example.new_3ala5er.firebaseinitprovider"
+195-->[com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+196            android:directBootAware="true"
+196-->[com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+197            android:exported="false"
+197-->[com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+198            android:initOrder="100" />
+198-->[com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+199
+200        <activity
+200-->[com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+201            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+201-->[com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+202            android:exported="false"
+202-->[com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+203            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+203-->[com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+204
+205        <meta-data
+205-->[com.google.android.gms:play-services-basement:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/ffab2070c030f6a84e69ea898e188aa5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+206            android:name="com.google.android.gms.version"
+206-->[com.google.android.gms:play-services-basement:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/ffab2070c030f6a84e69ea898e188aa5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+207            android:value="@integer/google_play_services_version" />
+207-->[com.google.android.gms:play-services-basement:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/ffab2070c030f6a84e69ea898e188aa5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+208
+209        <provider
+209-->[androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+210            android:name="androidx.startup.InitializationProvider"
+210-->[androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+211            android:authorities="com.example.new_3ala5er.androidx-startup"
+211-->[androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+212            android:exported="false" >
+212-->[androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+213            <meta-data
+213-->[androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+214                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+214-->[androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+215                android:value="androidx.startup" />
+215-->[androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+216            <meta-data
+216-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+217                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+217-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+218                android:value="androidx.startup" />
+218-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+219        </provider>
+220    </application>
+221
+222</manifest>

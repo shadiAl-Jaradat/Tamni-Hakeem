@@ -1,0 +1,12 @@
+com.kineapps.flutter_file_dialog-jetified-window-1.0.0-beta04-0 /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/res
+com.kineapps.flutter_file_dialog-jetified-window-java-1.0.0-beta04-1 /Users/shady-jaradat/.gradle/caches/transforms-3/2cd42c421c5fcc666c6d478b9d0f93cc/transformed/jetified-window-java-1.0.0-beta04/res
+com.kineapps.flutter_file_dialog-core-1.6.0-2 /Users/shady-jaradat/.gradle/caches/transforms-3/5c8a81cf2eef89498ff1a72fe119bcdb/transformed/core-1.6.0/res
+com.kineapps.flutter_file_dialog-jetified-annotation-experimental-1.1.0-3 /Users/shady-jaradat/.gradle/caches/transforms-3/e8991c05e5aa97ef430aee779507bef9/transformed/jetified-annotation-experimental-1.1.0/res
+com.kineapps.flutter_file_dialog-main-4 /Users/shady-jaradat/.pub-cache/hosted/pub.dev/flutter_file_dialog-3.0.2/android/src/main/res
+com.kineapps.flutter_file_dialog-release-5 /Users/shady-jaradat/.pub-cache/hosted/pub.dev/flutter_file_dialog-3.0.2/android/src/release/res
+com.kineapps.flutter_file_dialog-pngs-6 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_file_dialog/generated/res/pngs/release
+com.kineapps.flutter_file_dialog-resValues-7 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_file_dialog/generated/res/resValues/release
+com.kineapps.flutter_file_dialog-rs-8 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_file_dialog/generated/res/rs/release
+com.kineapps.flutter_file_dialog-mergeReleaseResources-9 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_file_dialog/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.kineapps.flutter_file_dialog-mergeReleaseResources-10 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_file_dialog/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.kineapps.flutter_file_dialog-merged_res-11 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_file_dialog/intermediates/merged_res/release

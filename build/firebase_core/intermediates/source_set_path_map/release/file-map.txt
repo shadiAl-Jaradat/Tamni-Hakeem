@@ -1,0 +1,14 @@
+io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-20.3.3-0 /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.0.0-beta04-1 /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-2 /Users/shady-jaradat/.gradle/caches/transforms-3/2cd42c421c5fcc666c6d478b9d0f93cc/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-core-1.6.0-3 /Users/shady-jaradat/.gradle/caches/transforms-3/5c8a81cf2eef89498ff1a72fe119bcdb/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.1.0-4 /Users/shady-jaradat/.gradle/caches/transforms-3/e8991c05e5aa97ef430aee779507bef9/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.1.0-5 /Users/shady-jaradat/.gradle/caches/transforms-3/ffab2070c030f6a84e69ea898e188aa5/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-main-6 /Users/shady-jaradat/.pub-cache/hosted/pub.dev/firebase_core-2.15.1/android/src/main/res
+io.flutter.plugins.firebase.core.firebase_core-release-7 /Users/shady-jaradat/.pub-cache/hosted/pub.dev/firebase_core-2.15.1/android/src/release/res
+io.flutter.plugins.firebase.core.firebase_core-pngs-8 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_core/generated/res/pngs/release
+io.flutter.plugins.firebase.core.firebase_core-resValues-9 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_core/generated/res/resValues/release
+io.flutter.plugins.firebase.core.firebase_core-rs-10 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_core/generated/res/rs/release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-11 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-12 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-13 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_core/intermediates/merged_res/release

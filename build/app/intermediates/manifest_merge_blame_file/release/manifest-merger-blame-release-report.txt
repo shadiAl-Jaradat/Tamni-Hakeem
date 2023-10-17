@@ -1,0 +1,391 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.new_3ala5er"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:4:5-6:36
+12        android:name="android.hardware.telephony"
+12-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:5:9-50
+13        android:required="false" />
+13-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:6:9-33
+14
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:7:5-68
+15-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:7:22-66
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[:file_picker] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-80
+16-->[:file_picker] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-77
+17
+18    <queries>
+18-->[:file_picker] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
+19        <intent>
+19-->[:file_picker] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+20            <action android:name="android.intent.action.GET_CONTENT" />
+20-->[:file_picker] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+20-->[:file_picker] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+21
+22            <data android:mimeType="*/*" />
+22-->[:file_picker] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+22-->[:file_picker] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
+23        </intent>
+24    </queries>
+25
+26    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+26-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+26-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+27    <uses-permission android:name="android.permission.VIBRATE" />
+27-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+27-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+28    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+28-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+28-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+29    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+29-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+29-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+30    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+30-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+30-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+31    <uses-permission android:name="android.permission.INTERNET" />
+31-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:25:5-67
+31-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:25:22-64
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:26:5-79
+32-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:26:22-76
+33
+34    <permission
+34-->[androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+35        android:name="com.example.new_3ala5er.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.example.new_3ala5er.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+39
+40    <application
+41        android:name="android.app.Application"
+41-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:10:9-42
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+43        android:icon="@mipmap/ic_launcher"
+43-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:11:9-43
+44        android:label="طمني حكيم" >
+44-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:9:9-34
+45        <activity
+45-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:12:9-32:20
+46            android:name="com.example.new_3ala5er.MainActivity"
+46-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:13:13-41
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:17:13-163
+48            android:exported="true"
+48-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:14:13-36
+49            android:hardwareAccelerated="true"
+49-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:18:13-47
+50            android:launchMode="singleTop"
+50-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:15:13-43
+51            android:theme="@style/LaunchTheme"
+51-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:16:13-47
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:19:13-55
+53
+54            <!--
+55                 Specifies an Android theme to apply to this Activity as soon as
+56                 the Android process has started. This theme is visible to the user
+57                 while the Flutter UI initializes. After that, this theme continues
+58                 to determine the Window background behind the Flutter UI.
+59            -->
+60            <meta-data
+60-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:24:13-27:17
+61                android:name="io.flutter.embedding.android.NormalTheme"
+61-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:25:15-70
+62                android:resource="@style/NormalTheme" />
+62-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:26:15-52
+63
+64            <intent-filter>
+64-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:28:13-31:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:29:17-68
+65-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:29:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:30:17-76
+67-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:30:27-74
+68            </intent-filter>
+69        </activity>
+70        <!--
+71             Don't delete the meta-data below.
+72             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+73        -->
+74        <meta-data
+74-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:35:9-37:33
+75            android:name="flutterEmbedding"
+75-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:36:13-44
+76            android:value="2" />
+76-->/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app/src/main/AndroidManifest.xml:37:13-30
+77
+78        <service
+78-->[:firebase_database] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+79            android:name="com.google.firebase.components.ComponentDiscoveryService"
+79-->[:firebase_database] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+80            android:directBootAware="true"
+80-->[com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+81            android:exported="false" >
+81-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:68:13-37
+82            <meta-data
+82-->[:firebase_database] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+83                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+83-->[:firebase_database] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-127
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[:firebase_database] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+85            <meta-data
+85-->[:cloud_firestore] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+86                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+86-->[:cloud_firestore] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[:cloud_firestore] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+88            <meta-data
+88-->[:firebase_auth] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+89-->[:firebase_auth] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[:firebase_auth] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+91            <meta-data
+91-->[:firebase_storage] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+92-->[:firebase_storage] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-126
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:firebase_storage] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+94            <meta-data
+94-->[:firebase_core] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+95-->[:firebase_core] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[:firebase_core] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:69:13-71:85
+98                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+98-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:70:17-109
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:71:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:31:13-33:85
+101                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+101-->[com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:32:17-109
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:33:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:19:13-21:85
+104                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+104-->[com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:20:17-111
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:21:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:32:13-34:85
+107                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+107-->[com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:33:17-107
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:34:17-82
+109        </service>
+110
+111        <receiver
+111-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+112            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+112-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+113            android:exported="false" />
+113-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+114        <receiver
+114-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+115            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+115-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+116            android:exported="false" />
+116-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+117        <receiver
+117-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+118            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+118-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+119            android:exported="false" >
+119-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+120            <intent-filter>
+120-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+121                <action android:name="android.intent.action.BOOT_COMPLETED" />
+121-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+121-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+122                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+122-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+122-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+123                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+123-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+123-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+124                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+124-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+124-->[:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+125            </intent-filter>
+126        </receiver>
+127
+128        <activity
+128-->[:url_launcher_android] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+129            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+129-->[:url_launcher_android] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+130            android:exported="false"
+130-->[:url_launcher_android] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+131            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+131-->[:url_launcher_android] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+132
+133        <provider
+133-->[:open_file] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-20:20
+134            android:name="com.crazecoder.openfile.FileProvider"
+134-->[:open_file] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+135            android:authorities="com.example.new_3ala5er.fileProvider.com.crazecoder.openfile"
+135-->[:open_file] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-88
+136            android:exported="false"
+136-->[:open_file] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+137            android:grantUriPermissions="true" >
+137-->[:open_file] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-47
+138            <meta-data
+138-->[:open_file] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-19:53
+139                android:name="android.support.FILE_PROVIDER_PATHS"
+139-->[:open_file] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-67
+140                android:resource="@xml/filepaths" />
+140-->[:open_file] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-50
+141        </provider>
+142
+143        <activity
+143-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:29:9-46:20
+144            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+144-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:30:13-80
+145            android:excludeFromRecents="true"
+145-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:31:13-46
+146            android:exported="true"
+146-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:32:13-36
+147            android:launchMode="singleTask"
+147-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:33:13-44
+148            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+148-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:34:13-72
+149            <intent-filter>
+149-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:35:13-45:29
+150                <action android:name="android.intent.action.VIEW" />
+150-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:17-69
+150-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:25-66
+151
+152                <category android:name="android.intent.category.DEFAULT" />
+152-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+152-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
+153                <category android:name="android.intent.category.BROWSABLE" />
+153-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+153-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
+154
+155                <data
+155-->[:file_picker] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+156                    android:host="firebase.auth"
+157                    android:path="/"
+158                    android:scheme="genericidp" />
+159            </intent-filter>
+160        </activity>
+161        <activity
+161-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:47:9-64:20
+162            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+162-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:48:13-79
+163            android:excludeFromRecents="true"
+163-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:49:13-46
+164            android:exported="true"
+164-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:50:13-36
+165            android:launchMode="singleTask"
+165-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:51:13-44
+166            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+166-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:52:13-72
+167            <intent-filter>
+167-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:53:13-63:29
+168                <action android:name="android.intent.action.VIEW" />
+168-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:17-69
+168-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:25-66
+169
+170                <category android:name="android.intent.category.DEFAULT" />
+170-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+170-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
+171                <category android:name="android.intent.category.BROWSABLE" />
+171-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+171-->[com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
+172
+173                <data
+173-->[:file_picker] /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+174                    android:host="firebase.auth"
+175                    android:path="/"
+176                    android:scheme="recaptcha" />
+177            </intent-filter>
+178        </activity>
+179
+180        <uses-library
+180-->[androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+181            android:name="androidx.window.extensions"
+181-->[androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+182            android:required="false" />
+182-->[androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+183        <uses-library
+183-->[androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+184            android:name="androidx.window.sidecar"
+184-->[androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+185            android:required="false" />
+185-->[androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+186
+187        <provider
+187-->[com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+188            android:name="com.google.firebase.provider.FirebaseInitProvider"
+188-->[com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+189            android:authorities="com.example.new_3ala5er.firebaseinitprovider"
+189-->[com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+190            android:directBootAware="true"
+190-->[com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+191            android:exported="false"
+191-->[com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+192            android:initOrder="100" />
+192-->[com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+193
+194        <activity
+194-->[com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+195            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+195-->[com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+196            android:exported="false"
+196-->[com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+197-->[com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+198
+199        <meta-data
+199-->[com.google.android.gms:play-services-basement:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/ffab2070c030f6a84e69ea898e188aa5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+200            android:name="com.google.android.gms.version"
+200-->[com.google.android.gms:play-services-basement:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/ffab2070c030f6a84e69ea898e188aa5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+201            android:value="@integer/google_play_services_version" />
+201-->[com.google.android.gms:play-services-basement:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/ffab2070c030f6a84e69ea898e188aa5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+202
+203        <provider
+203-->[androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+204            android:name="androidx.startup.InitializationProvider"
+204-->[androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+205            android:authorities="com.example.new_3ala5er.androidx-startup"
+205-->[androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+206            android:exported="false" >
+206-->[androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+207            <meta-data
+207-->[androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+208                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+208-->[androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+209                android:value="androidx.startup" />
+209-->[androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+210            <meta-data
+210-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+211                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+211-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+212                android:value="androidx.startup" />
+212-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+213        </provider>
+214    </application>
+215
+216</manifest>

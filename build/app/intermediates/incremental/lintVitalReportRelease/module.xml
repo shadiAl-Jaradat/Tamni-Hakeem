@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.2.0"
+    buildFolder="/Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/app"
+    bootClassPath="/Users/shady-jaradat/Library/Android/sdk/platforms/android-33/android.jar:/Users/shady-jaradat/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

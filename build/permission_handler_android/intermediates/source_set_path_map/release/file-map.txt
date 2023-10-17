@@ -1,0 +1,12 @@
+com.baseflow.permissionhandler.permission_handler_android-jetified-window-1.0.0-beta04-0 /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/res
+com.baseflow.permissionhandler.permission_handler_android-jetified-window-java-1.0.0-beta04-1 /Users/shady-jaradat/.gradle/caches/transforms-3/2cd42c421c5fcc666c6d478b9d0f93cc/transformed/jetified-window-java-1.0.0-beta04/res
+com.baseflow.permissionhandler.permission_handler_android-core-1.6.0-2 /Users/shady-jaradat/.gradle/caches/transforms-3/5c8a81cf2eef89498ff1a72fe119bcdb/transformed/core-1.6.0/res
+com.baseflow.permissionhandler.permission_handler_android-jetified-annotation-experimental-1.1.0-3 /Users/shady-jaradat/.gradle/caches/transforms-3/e8991c05e5aa97ef430aee779507bef9/transformed/jetified-annotation-experimental-1.1.0/res
+com.baseflow.permissionhandler.permission_handler_android-main-4 /Users/shady-jaradat/.pub-cache/hosted/pub.dev/permission_handler_android-11.0.2/android/src/main/res
+com.baseflow.permissionhandler.permission_handler_android-release-5 /Users/shady-jaradat/.pub-cache/hosted/pub.dev/permission_handler_android-11.0.2/android/src/release/res
+com.baseflow.permissionhandler.permission_handler_android-pngs-6 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/permission_handler_android/generated/res/pngs/release
+com.baseflow.permissionhandler.permission_handler_android-resValues-7 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/permission_handler_android/generated/res/resValues/release
+com.baseflow.permissionhandler.permission_handler_android-rs-8 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/permission_handler_android/generated/res/rs/release
+com.baseflow.permissionhandler.permission_handler_android-mergeReleaseResources-9 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/permission_handler_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.baseflow.permissionhandler.permission_handler_android-mergeReleaseResources-10 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/permission_handler_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.baseflow.permissionhandler.permission_handler_android-merged_res-11 /Users/shady-jaradat/StudioProjects/diabetes_and_hypertension/build/permission_handler_android/intermediates/merged_res/release

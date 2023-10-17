@@ -1,0 +1,659 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:8:5-38:19
+MERGED from [:firebase_database] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_database] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-32:19
+MERGED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-32:19
+MERGED from [:url_launcher_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-21:19
+MERGED from [:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-21:19
+MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:28:5-73:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/8816ad617f24220d8544399eca1791cd/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/8816ad617f24220d8544399eca1791cd/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] /Users/shady-jaradat/.gradle/caches/transforms-3/65551b093ecf56de8ff655cac1d838be/transformed/jetified-firebase-appcheck-interop-17.0.1/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] /Users/shady-jaradat/.gradle/caches/transforms-3/65551b093ecf56de8ff655cac1d838be/transformed/jetified-firebase-appcheck-interop-17.0.1/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/238367fdb5b4dadb513a48628f5c483c/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/238367fdb5b4dadb513a48628f5c483c/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8b6908f52fd1a580868b3d034dcd908e/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8b6908f52fd1a580868b3d034dcd908e/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/ffab2070c030f6a84e69ea898e188aa5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/ffab2070c030f6a84e69ea898e188aa5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shady-jaradat/.gradle/caches/transforms-3/d626395aa26932a9757d213291f1f32e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shady-jaradat/.gradle/caches/transforms-3/d626395aa26932a9757d213291f1f32e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shady-jaradat/.gradle/caches/transforms-3/ce8d64c8f9afe049fba2724a17ecd113/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shady-jaradat/.gradle/caches/transforms-3/ce8d64c8f9afe049fba2724a17ecd113/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from [:firebase_database] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:cloud_firestore] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_auth] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_storage] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:sqflite] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:syncfusion_flutter_pdfviewer] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/syncfusion_flutter_pdfviewer/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-34:12
+MERGED from [:url_launcher_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [:path_provider_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:webview_flutter_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_file_dialog] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_file_dialog/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:permission_handler_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:device_info_plus] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/device_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:external_path] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/external_path/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_phone_direct_caller] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/5cbea968ddebc9bf964a3fde0d790db8/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/shady-jaradat/.gradle/caches/transforms-3/fc9b9e9db3f0833a9fa25049eaf6123b/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/2cd42c421c5fcc666c6d478b9d0f93cc/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/shady-jaradat/.gradle/caches/transforms-3/ebea1c2e09a1aace4f3e76c12d6cb72f/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/shady-jaradat/.gradle/caches/transforms-3/9a8d8dc92fcfe767af37433aeedb5a6f/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/8816ad617f24220d8544399eca1791cd/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] /Users/shady-jaradat/.gradle/caches/transforms-3/65551b093ecf56de8ff655cac1d838be/transformed/jetified-firebase-appcheck-interop-17.0.1/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/shady-jaradat/.gradle/caches/transforms-3/a03106724fc980773a0f7d4e9eda05c2/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/shady-jaradat/.gradle/caches/transforms-3/c7d0c2230922ce3cd3a2bb6023b4a79d/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/238367fdb5b4dadb513a48628f5c483c/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8b6908f52fd1a580868b3d034dcd908e/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/ffab2070c030f6a84e69ea898e188aa5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/shady-jaradat/.gradle/caches/transforms-3/c317b39b84851cebdb486bf09eac1d9e/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /Users/shady-jaradat/.gradle/caches/transforms-3/40dd2357a16567095cb92ce6a9bafff9/transformed/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/63c418ee40b148adabb4c5cd31ffec88/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/shady-jaradat/.gradle/caches/transforms-3/f0ecabc5268211a4f87a975b9443f9ae/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/shady-jaradat/.gradle/caches/transforms-3/46d2c0d67e68583148238e79b9a142c0/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/67087542d130ee91e466576a6afb66b3/transformed/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/shady-jaradat/.gradle/caches/transforms-3/32d06f92c16d1a0025bfe5fe9b446d21/transformed/webkit-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/9cff4629ec3d3f4c2294795fe4204552/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/c0d462c2be2baacb987229b3123e750a/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/shady-jaradat/.gradle/caches/transforms-3/aa8b2e84628b31345c03412dbbd02878/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/72a476ce09a61bb69e12310ae3c7b5e2/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/48db359b6fc929ba8357b9bf9489b64e/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/612564627e970e2a3cc068a506b2e7e7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/d89ba4f7f22a3d7eb4d8e6e4fc430ebd/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/8fed008fb94cf7d8a8e523bda0028c2f/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.documentfile:documentfile:1.0.1] /Users/shady-jaradat/.gradle/caches/transforms-3/a189ed74970b67c8bbb080a185705d1a/transformed/documentfile-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shady-jaradat/.gradle/caches/transforms-3/d626395aa26932a9757d213291f1f32e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/a56033da9ec69c4aee3bb8db6705e1b2/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/6e424fbc681f0fde74dc0ec9269d91e7/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/a48e0f9e9ea0977911c6ff1d7a251c6e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shady-jaradat/.gradle/caches/transforms-3/ce8d64c8f9afe049fba2724a17ecd113/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/shady-jaradat/.gradle/caches/transforms-3/a9efbf3af920f5dd8f452889d1557d79/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/1327756babdfed2e6294db56dafb6a88/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/eed8a47e5a67d7c619105b54a9aadb01/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/dc1bbb0e78067582adbf34472f15d520/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/eae0b2e23e9ef96def0089156d6ae5a4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/shady-jaradat/.gradle/caches/transforms-3/56f09f327bb30b43abf38ddf7f1f4a1b/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/38b9cd334afbda9e1295b681c4260289/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/shady-jaradat/.gradle/caches/transforms-3/8c6d9a97c6bde6297a0e6cafc3e61a3d/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/shady-jaradat/.gradle/caches/transforms-3/854adfd10bfb0450e1c350cc1630e7fd/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/8190a90120461b35bd613031b91eaad7/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:2:5-38
+		INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-feature#android.hardware.telephony
+ADDED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:4:5-6:36
+MERGED from [:flutter_phone_direct_caller] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:36
+MERGED from [:flutter_phone_direct_caller] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:6:9-33
+	android:name
+		ADDED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:5:9-50
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:7:5-68
+MERGED from [:flutter_phone_direct_caller] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-69
+MERGED from [:flutter_phone_direct_caller] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-69
+	android:name
+		ADDED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml:7:22-66
+uses-sdk
+INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_database] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_database] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:syncfusion_flutter_pdfviewer] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/syncfusion_flutter_pdfviewer/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:syncfusion_flutter_pdfviewer] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/syncfusion_flutter_pdfviewer/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_file_dialog] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_file_dialog/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_file_dialog] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_file_dialog/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:device_info_plus] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/device_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:device_info_plus] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/device_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:external_path] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/external_path/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:external_path] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/external_path/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_phone_direct_caller] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_phone_direct_caller] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/5cbea968ddebc9bf964a3fde0d790db8/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/5cbea968ddebc9bf964a3fde0d790db8/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/shady-jaradat/.gradle/caches/transforms-3/fc9b9e9db3f0833a9fa25049eaf6123b/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/shady-jaradat/.gradle/caches/transforms-3/fc9b9e9db3f0833a9fa25049eaf6123b/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/2cd42c421c5fcc666c6d478b9d0f93cc/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/2cd42c421c5fcc666c6d478b9d0f93cc/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/shady-jaradat/.gradle/caches/transforms-3/ebea1c2e09a1aace4f3e76c12d6cb72f/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/shady-jaradat/.gradle/caches/transforms-3/ebea1c2e09a1aace4f3e76c12d6cb72f/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/shady-jaradat/.gradle/caches/transforms-3/9a8d8dc92fcfe767af37433aeedb5a6f/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/shady-jaradat/.gradle/caches/transforms-3/9a8d8dc92fcfe767af37433aeedb5a6f/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/8816ad617f24220d8544399eca1791cd/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/8816ad617f24220d8544399eca1791cd/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] /Users/shady-jaradat/.gradle/caches/transforms-3/65551b093ecf56de8ff655cac1d838be/transformed/jetified-firebase-appcheck-interop-17.0.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] /Users/shady-jaradat/.gradle/caches/transforms-3/65551b093ecf56de8ff655cac1d838be/transformed/jetified-firebase-appcheck-interop-17.0.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/shady-jaradat/.gradle/caches/transforms-3/a03106724fc980773a0f7d4e9eda05c2/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/shady-jaradat/.gradle/caches/transforms-3/a03106724fc980773a0f7d4e9eda05c2/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/shady-jaradat/.gradle/caches/transforms-3/c7d0c2230922ce3cd3a2bb6023b4a79d/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/shady-jaradat/.gradle/caches/transforms-3/c7d0c2230922ce3cd3a2bb6023b4a79d/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/238367fdb5b4dadb513a48628f5c483c/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/238367fdb5b4dadb513a48628f5c483c/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8b6908f52fd1a580868b3d034dcd908e/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8b6908f52fd1a580868b3d034dcd908e/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/ffab2070c030f6a84e69ea898e188aa5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/ffab2070c030f6a84e69ea898e188aa5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/shady-jaradat/.gradle/caches/transforms-3/c317b39b84851cebdb486bf09eac1d9e/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/shady-jaradat/.gradle/caches/transforms-3/c317b39b84851cebdb486bf09eac1d9e/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /Users/shady-jaradat/.gradle/caches/transforms-3/40dd2357a16567095cb92ce6a9bafff9/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /Users/shady-jaradat/.gradle/caches/transforms-3/40dd2357a16567095cb92ce6a9bafff9/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/63c418ee40b148adabb4c5cd31ffec88/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/63c418ee40b148adabb4c5cd31ffec88/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/shady-jaradat/.gradle/caches/transforms-3/f0ecabc5268211a4f87a975b9443f9ae/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/shady-jaradat/.gradle/caches/transforms-3/f0ecabc5268211a4f87a975b9443f9ae/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/shady-jaradat/.gradle/caches/transforms-3/46d2c0d67e68583148238e79b9a142c0/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/shady-jaradat/.gradle/caches/transforms-3/46d2c0d67e68583148238e79b9a142c0/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/67087542d130ee91e466576a6afb66b3/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/67087542d130ee91e466576a6afb66b3/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/shady-jaradat/.gradle/caches/transforms-3/32d06f92c16d1a0025bfe5fe9b446d21/transformed/webkit-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/shady-jaradat/.gradle/caches/transforms-3/32d06f92c16d1a0025bfe5fe9b446d21/transformed/webkit-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/9cff4629ec3d3f4c2294795fe4204552/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/9cff4629ec3d3f4c2294795fe4204552/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/c0d462c2be2baacb987229b3123e750a/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/c0d462c2be2baacb987229b3123e750a/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.browser:browser:1.4.0] /Users/shady-jaradat/.gradle/caches/transforms-3/aa8b2e84628b31345c03412dbbd02878/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/shady-jaradat/.gradle/caches/transforms-3/aa8b2e84628b31345c03412dbbd02878/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/72a476ce09a61bb69e12310ae3c7b5e2/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/72a476ce09a61bb69e12310ae3c7b5e2/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/48db359b6fc929ba8357b9bf9489b64e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/48db359b6fc929ba8357b9bf9489b64e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/612564627e970e2a3cc068a506b2e7e7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/612564627e970e2a3cc068a506b2e7e7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/d89ba4f7f22a3d7eb4d8e6e4fc430ebd/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/d89ba4f7f22a3d7eb4d8e6e4fc430ebd/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/8fed008fb94cf7d8a8e523bda0028c2f/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/8fed008fb94cf7d8a8e523bda0028c2f/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] /Users/shady-jaradat/.gradle/caches/transforms-3/a189ed74970b67c8bbb080a185705d1a/transformed/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] /Users/shady-jaradat/.gradle/caches/transforms-3/a189ed74970b67c8bbb080a185705d1a/transformed/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shady-jaradat/.gradle/caches/transforms-3/d626395aa26932a9757d213291f1f32e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shady-jaradat/.gradle/caches/transforms-3/d626395aa26932a9757d213291f1f32e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/a56033da9ec69c4aee3bb8db6705e1b2/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/a56033da9ec69c4aee3bb8db6705e1b2/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/6e424fbc681f0fde74dc0ec9269d91e7/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/6e424fbc681f0fde74dc0ec9269d91e7/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/a48e0f9e9ea0977911c6ff1d7a251c6e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/a48e0f9e9ea0977911c6ff1d7a251c6e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shady-jaradat/.gradle/caches/transforms-3/ce8d64c8f9afe049fba2724a17ecd113/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shady-jaradat/.gradle/caches/transforms-3/ce8d64c8f9afe049fba2724a17ecd113/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/shady-jaradat/.gradle/caches/transforms-3/a9efbf3af920f5dd8f452889d1557d79/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/shady-jaradat/.gradle/caches/transforms-3/a9efbf3af920f5dd8f452889d1557d79/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/1327756babdfed2e6294db56dafb6a88/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/1327756babdfed2e6294db56dafb6a88/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/eed8a47e5a67d7c619105b54a9aadb01/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/eed8a47e5a67d7c619105b54a9aadb01/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/dc1bbb0e78067582adbf34472f15d520/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/dc1bbb0e78067582adbf34472f15d520/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/eae0b2e23e9ef96def0089156d6ae5a4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/eae0b2e23e9ef96def0089156d6ae5a4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/shady-jaradat/.gradle/caches/transforms-3/56f09f327bb30b43abf38ddf7f1f4a1b/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/shady-jaradat/.gradle/caches/transforms-3/56f09f327bb30b43abf38ddf7f1f4a1b/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/38b9cd334afbda9e1295b681c4260289/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/38b9cd334afbda9e1295b681c4260289/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/shady-jaradat/.gradle/caches/transforms-3/8c6d9a97c6bde6297a0e6cafc3e61a3d/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/shady-jaradat/.gradle/caches/transforms-3/8c6d9a97c6bde6297a0e6cafc3e61a3d/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/shady-jaradat/.gradle/caches/transforms-3/854adfd10bfb0450e1c350cc1630e7fd/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/shady-jaradat/.gradle/caches/transforms-3/854adfd10bfb0450e1c350cc1630e7fd/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/8190a90120461b35bd613031b91eaad7/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/shady-jaradat/.gradle/caches/transforms-3/8190a90120461b35bd613031b91eaad7/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/debug/AndroidManifest.xml:7:5-66
+MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/shady-jaradat/.gradle/caches/transforms-3/fc9b9e9db3f0833a9fa25049eaf6123b/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/shady-jaradat/.gradle/caches/transforms-3/fc9b9e9db3f0833a9fa25049eaf6123b/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/shady-jaradat/StudioProjects/TamniHakeem/android/app/src/debug/AndroidManifest.xml:7:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_database] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:cloud_firestore] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:cloud_firestore] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:firebase_database] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_database] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_database] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_database] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-127
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_auth] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_storage] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_storage] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from [:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-77
+queries
+ADDED from [:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-72
+	android:name
+		ADDED from [:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:21-69
+data
+ADDED from [:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-44
+	android:mimeType
+		ADDED from [:file_picker] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:19-41
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-63
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-74
+receiver#com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver
+ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-91
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-97
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-31:20
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-30:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-79
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+provider#com.crazecoder.openfile.FileProvider
+ADDED from [:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-20:20
+	android:grantUriPermissions
+		ADDED from [:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-88
+	android:exported
+		ADDED from [:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+	tools:replace
+		ADDED from [:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-48
+	android:name
+		ADDED from [:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:53
+	android:resource
+		ADDED from [:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-50
+	android:name
+		ADDED from [:open_file] /Users/shady-jaradat/StudioProjects/TamniHakeem/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-67
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/shady-jaradat/.gradle/caches/transforms-3/fc9b9e9db3f0833a9fa25049eaf6123b/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/shady-jaradat/.gradle/caches/transforms-3/fc9b9e9db3f0833a9fa25049eaf6123b/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:25:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/shady-jaradat/.gradle/caches/transforms-3/8c6d9a97c6bde6297a0e6cafc3e61a3d/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/shady-jaradat/.gradle/caches/transforms-3/8c6d9a97c6bde6297a0e6cafc3e61a3d/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/bc2e61668c19f84a5685047df10fea17/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:70:17-109
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/shady-jaradat/.gradle/caches/transforms-3/1f3f3c7bf247259442b6db1757087228/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.2.2] /Users/shady-jaradat/.gradle/caches/transforms-3/8d2ce1d215b7ec2f79e243d9a71e9bee/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:32:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:19:13-21:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shady-jaradat/.gradle/caches/transforms-3/518c8240f077087ff8e44499d640df3a/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:20:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.2.1] /Users/shady-jaradat/.gradle/caches/transforms-3/75ce0a5a99485762e376d6c0de8f921a/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:33:17-107
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.3] /Users/shady-jaradat/.gradle/caches/transforms-3/11546fccf0427d13d193e338abdda6ff/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/e5a354c527da9b5b48e616d85e19025b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/ffab2070c030f6a84e69ea898e188aa5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/ffab2070c030f6a84e69ea898e188aa5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shady-jaradat/.gradle/caches/transforms-3/ffab2070c030f6a84e69ea898e188aa5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shady-jaradat/.gradle/caches/transforms-3/d626395aa26932a9757d213291f1f32e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shady-jaradat/.gradle/caches/transforms-3/d626395aa26932a9757d213291f1f32e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shady-jaradat/.gradle/caches/transforms-3/66b5aff47dc39cb41535a2fad38c6d04/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+permission#com.example.new_3ala5er.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.new_3ala5er.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/shady-jaradat/.gradle/caches/transforms-3/4186c888f3ac0fed2df8519457c2342c/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shady-jaradat/.gradle/caches/transforms-3/48e7384f51bee3b9082c791340e7015e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
